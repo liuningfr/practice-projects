@@ -76,7 +76,7 @@
 	      $(".dm_show").append(textObj);
 	      moveObj(textObj);
 	    }
-
+			//设置3s的移动时间
 	    setTimeout(getAndRun, 3000);
 	  }
 	  getAndRun();
